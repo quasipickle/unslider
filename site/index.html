@@ -163,7 +163,7 @@
 &lt;script&gt;
     var unslider = $('.banner').unslider();
 
-    $('.unslider-arrow').click(function() {
+    $('.unslider-arrow').on('click',function() {
         var fn = this.className.split(' ')[1];
 
         <span>//  Either do unslider.data('unslider').next() or .prev() depending on the className</span>
